@@ -1,0 +1,3 @@
+PS C:\Users\leaje\OneDrive\Bureau\programming> git remote add upstream https://github.com/LeaRozenn/11055-PfD-2020-2.git
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\Users\leaje\OneDrive\Bureau\programming>
