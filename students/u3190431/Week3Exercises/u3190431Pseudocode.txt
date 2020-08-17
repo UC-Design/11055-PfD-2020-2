@@ -1,0 +1,12 @@
+SET ovenTemperature = 180
+DO WHILE ovenTemperature < 180
+    Heat
+LOOP
+DO 
+    Add 1/4 cup of sugar, soy sauce and mirin to pot
+IF teriyakiSauce_isMelted.isFalse
+    Heat
+ELSE
+    Pour teriyaki sauce on salmon
+DO 
+    Leave salmon in oven for 20 minutes
