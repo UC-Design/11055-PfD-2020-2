@@ -1,0 +1,40 @@
+//Scissors paper rock psuedo code best of 3
+Begin SPR
+    //player1input recieves a number from player1
+    //player2input recieves a number from player2
+    //0 = scissors
+    //1 = paper
+    //2 = rock
+    player1wins = 0
+    player2wins = 0
+    while player1wins < 2 and player2wins < 2:
+        recieve player1input
+        recieve player2input
+        if player1input = player2input
+            print "draw"
+        elif player1input = 0 and player2input = 1:
+            print "player 1 wins"
+            player1wins = player1wins + 1
+        elif player1input = 0 and player2input = 2:
+            print "player 2 wins"
+            player2wins = player2wins + 1
+        elif player1input = 1 and player2input = 0:
+            print "player 2 wins"
+            player2wins = player2wins + 1
+        elif player1input = 1 and player2input = 2:
+            print "player 1 wins"
+            player1wins = player1wins + 1
+        elif player1input = 2 and player2input = 0:
+            print "player 1 wins"
+            player1wins = player1wins + 1
+        elif player1input = 2 and player2input = 1:
+            print "player 2 wins"
+            player2wins = player2wins + 1
+        endif
+    endwhile
+    if player1wins > player2wins:
+        print "player 1 wins"
+    else:
+        print "player 2 wins"
+    endif
+end SPR
