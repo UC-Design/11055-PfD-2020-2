@@ -1,0 +1,245 @@
+PS C:\Users\leaje\OneDrive\Bureau\programming> git remote add upstream https://github.com/LeaRozenn/11055-PfD-2020-2.git
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\Users\leaje\OneDrive\Bureau\programming>
+
+
+
+ex 5 
+
+
+
+
+
+
+
+
+
+
+
+
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+2020-2.git
+remote: Enumerating objects: 41, done.
+remote: Counting objects: 100% (41/41), done.
+Unpacking objects: 100% (41/41), 7.69 KiB | 55.00 KiB/s, done.
+PS C:\Users\leaje\OneDrive\Bureau\programming> git remote add upstream https://github.com/LeaRozenn/11055-PfD-2020-2.git
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\Users\leaje\OneDrive\Bureau\programming>  git remote add upstream https://github.com/LeaRozenn/11055-PfD-2020-2.git
+PS C:\Users\leaje\OneDrive\Bureau\programming> git init
+Initialized empty Git repository in C:/Users/leaje/OneDrive/Bureau/programming/.git/
+PS C:\Users\leaje\OneDrive\Bureau\programming> git remote add upstream https://github.com/UC-Design/11055-PfD-2020-2
+PS C:\Users\leaje\OneDrive\Bureau\programming> git fetch upstream
+warning: no common commits
+remote: Enumerating objects: 57, done.
+remote: Total 57 (delta 0), reused 0 (delta 0), pack-reused 57
+Unpacking objects: 100% (57/57), 10.21 KiB | 42.00 KiB/s, done.
+From https://github.com/UC-Design/11055-PfD-2020-2
+ * [new branch]      master     -> upstream/master
+PS C:\Users\leaje\OneDrive\Bureau\programming> git rebase upstream/master
+Successfully rebased and updated refs/heads/firstbranch.
+PS C:\Users\leaje\OneDrive\Bureau\programming> remote: Enumerating objects: 57, done.
+or operable program. Check the spelling of the name, or if a path was included, verify that     
+the path is correct and try again.
+At line:1 char:1
++ remote: Enumerating objects: 57, done.
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (remote::String) [], CommandNotFoundException     
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS C:\Users\leaje\OneDrive\Bureau\programming> remote: Total 57 (delta 0), reused 0 (delta 0), pack-reused 57
+operable program. Check the spelling of the name, or if a path was included, verify that the    
+path is correct and try again.
+At line:1 char:19
++ remote: Total 57 (delta 0), reused 0 (delta 0), pack-reused 57
++                   ~~~~~
+    + CategoryInfo          : ObjectNotFound: (delta:String) [], CommandNotFoundException       
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS C:\Users\leaje\OneDrive\Bureau\programming> Unpacking objects: 100% (57/57), 10.21 KiB | 42.00 KiB/s, done.
+At line:1 char:46
++ Unpacking objects: 100% (57/57), 10.21 KiB | 42.00 KiB/s, done.
++                                              ~~~~~
+Expressions are only allowed as the first element of a pipeline.
+At line:1 char:52
++ Unpacking objects: 100% (57/57), 10.21 KiB | 42.00 KiB/s, done.
+Unexpected token 'KiB/s' in expression or statement.
+At line:1 char:57
++ Unpacking objects: 100% (57/57), 10.21 KiB | 42.00 KiB/s, done.
++                                                         ~
+Missing argument in parameter list.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : ExpressionsMustBeFirstInPipeline
+ 
+2
+At line:1 char:1
++ From https://github.com/UC-Design/11055-PfD-2020-2
++ ~~~~
+The 'from' keyword is not supported in this version of the language.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : ReservedKeywordNotAllowed
+ 
+PS C:\Users\leaje\OneDrive\Bureau\programming>  * [new branch]      master     -> upstream/master
+program. Check the spelling of the name, or if a path was included, verify that the path is     
+correct and try again.
+At line:1 char:2
++  * [new branch]      master     -> upstream/master
++  ~
+    + CategoryInfo          : ObjectNotFound: (*:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS C:\Users\leaje\OneDrive\Bureau\programming> PS C:\Users\leaje\OneDrive\Bureau\programming> giGet-Process : A positional parameter cannot be found that accepts argument 'git'.
+At line:1 char:1
++ PS C:\Users\leaje\OneDrive\Bureau\programming> git rebase upstream/ma ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-Process], ParameterBindingException     
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.GetPro  
+   cessCommand
+ 
+PS C:\Users\leaje\OneDrive\Bureau\programming> Successfully rebased and updated refs/heads/firstbranch.
+Successfully : The term 'Successfully' is not recognized as the name of a cmdlet, function, 
+verify that the path is correct and try again.
+At line:1 char:1
++ Successfully rebased and updated refs/heads/firstbranch.
++ ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Successfully:String) [], CommandNotFoundExcepti  
+   on
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS C:\Users\leaje\OneDrive\Bureau\programming> PS C:\Users\leaje\OneDrive\Bureau\programming> reGet-Process : A positional parameter cannot be found that accepts argument 'remote:'.
+At line:1 char:1
++ PS C:\Users\leaje\OneDrive\Bureau\programming> remote: Enumerating ob ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-Process], ParameterBindingException     
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.GetPro  
+   cessCommand
+ 
+PS C:\Users\leaje\OneDrive\Bureau\programming> remote: Total 57 (delta 0), reused 0 (delta 0), pack-reused 57
+operable program. Check the spelling of the name, or if a path was included, verify that the    
+path is correct and try again.
+At line:1 char:19
++ remote: Total 57 (delta 0), reused 0 (delta 0), pack-reused 57
++                   ~~~~~
+    + CategoryInfo          : ObjectNotFound: (delta:String) [], CommandNotFoundException       
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS C:\Users\leaje\OneDrive\Bureau\programming> Unpacking objects: 100% (57/57), 10.21 KiB | 42.00 KiB/s, done.
+At line:1 char:46
++ Unpacking objects: 100% (57/57), 10.21 KiB | 42.00 KiB/s, done.
++                                              ~~~~~
+Expressions are only allowed as the first element of a pipeline.
+At line:1 char:52
++ Unpacking objects: 100% (57/57), 10.21 KiB | 42.00 KiB/s, done.
+Unexpected token 'KiB/s' in expression or statement.
+At line:1 char:57
++ Unpacking objects: 100% (57/57), 10.21 KiB | 42.00 KiB/s, done.
++                                                         ~
+Missing argument in parameter list.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : ExpressionsMustBeFirstInPipeline
+ 
+2
+At line:1 char:1
++ From https://github.com/UC-Design/11055-PfD-2020-2
++ ~~~~
+The 'from' keyword is not supported in this version of the language.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : ReservedKeywordNotAllowed
+ 
+PS C:\Users\leaje\OneDrive\Bureau\programming>  * [new branch]      master     -> upstream/master
+program. Check the spelling of the name, or if a path was included, verify that the path is     
+correct and try again.
+At line:1 char:2
++  * [new branch]      master     -> upstream/master
++  ~
+    + CategoryInfo          : ObjectNotFound: (*:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS C:\Users\leaje\OneDrive\Bureau\programming> PS C:\Users\leaje\OneDrive\Bureau\programming> giGet-Process : A positional parameter cannot be found that accepts argument 'git'.
+At line:1 char:1
++ PS C:\Users\leaje\OneDrive\Bureau\programming> git rebase upstream/ma ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-Process], ParameterBindingException     
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.GetPro  
+   cessCommand
+ 
+PS C:\Users\leaje\OneDrive\Bureau\programming> Successfully rebased and updated refs/heads/firstbranch.
+verify that the path is correct and try again.
+At line:1 char:1
++ Successfully rebased and updated refs/heads/firstbranch.
++ ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Successfully:String) [], CommandNotFoundExcepti  
+   on
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS C:\Users\leaje\OneDrive\Bureau\programming> PS C:\Users\leaje\OneDrive\Bureau\programming> reGet-Process : A positional parameter cannot be found that accepts argument 'remote:'.
+At line:1 char:1
++ PS C:\Users\leaje\OneDrive\Bureau\programming> remote: Enumerating ob ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-Process], ParameterBindingException     
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.GetPro  
+   cessCommand
+ 
+PS C:\Users\leaje\OneDrive\Bureau\programming> remote: Total 57 (delta 0), reused 0 (delta 0), pack-reused 57
+operable program. Check the spelling of the name, or if a path was included, verify that the    
+path is correct and try again.
+At line:1 char:19
++ remote: Total 57 (delta 0), reused 0 (delta 0), pack-reused 57
++                   ~~~~~
+    + CategoryInfo          : ObjectNotFound: (delta:String) [], CommandNotFoundException       
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS C:\Users\leaje\OneDrive\Bureau\programming> Unpacking objects: 100% (57/57), 10.21 KiB | 42.00 KiB/s, done.
+At line:1 char:46
++ Unpacking objects: 100% (57/57), 10.21 KiB | 42.00 KiB/s, done.
++                                              ~~~~~
+Expressions are only allowed as the first element of a pipeline.
+At line:1 char:52
++ Unpacking objects: 100% (57/57), 10.21 KiB | 42.00 KiB/s, done.
+Unexpected token 'KiB/s' in expression or statement.
+At line:1 char:57
++ Unpacking objects: 100% (57/57), 10.21 KiB | 42.00 KiB/s, done.
++                                                         ~
+Missing argument in parameter list.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : ExpressionsMustBeFirstInPipeline
+ 
+2
+At line:1 char:1
++ From https://github.com/UC-Design/11055-PfD-2020-2
++ ~~~~
+The 'from' keyword is not supported in this version of the language.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : ReservedKeywordNotAllowed
+ 
+PS C:\Users\leaje\OneDrive\Bureau\programming>  * [new branch]      master     -> upstream/master
+program. Check the spelling of the name, or if a path was included, verify that the path is     
+correct and try again.
+At line:1 char:2
++  * [new branch]      master     -> upstream/master
++  ~
+    + CategoryInfo          : ObjectNotFound: (*:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS C:\Users\leaje\OneDrive\Bureau\programming> PS C:\Users\leaje\OneDrive\Bureau\programming> giGet-Process : A positional parameter cannot be found that accepts argument 'git'.
+At line:1 char:1
++ PS C:\Users\leaje\OneDrive\Bureau\programming> git rebase upstream/ma ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-Process], ParameterBindingException     
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.GetPro  
+   cessCommand
+ 
+PS C:\Users\leaje\OneDrive\Bureau\programming> Successfully rebased and updated refs/heads/firstbranch.
+Successfully : The term 'Successfully' is not recognized as the name of a cmdlet, function, 
+script file, or operable program. Check the spelling of the name, or if a path was included,    
+verify that the path is correct and try again.
+At line:1 char:1
++ Successfully rebased and updated refs/heads/firstbranch.
++ ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Successfully:String) [], CommandNotFoundExcepti 
+   on
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS C:\Users\leaje\OneDrive\Bureau\programming> PS C:\Users\leaje\OneDrive\Bureau\programming> 
