@@ -1,0 +1,11 @@
+
+
+1. Reminder about the quiz
+
+2. .gitignore files - clean up the repository
+
+2. Walk through forking/rebasing of git again.
+
+3. flow charting
+
+4. HTML

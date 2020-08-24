@@ -1,0 +1,29 @@
+Algorithm for my morning routine
+
+Wake up, did I wake up on your own terms?
+    If false > go back to sleep and try again 
+    If true > continue
+Take phone off charge, are there any messages to reply to? 
+    If false > continue 
+    If true > reply to messages then continue
+Do I need to go to the bathroom? 
+    If false > go to kitchen 
+    If true > go to bathroom then proceed to kitchen
+Is there a banana to eat for breakfast? 
+    If false > go to fridge to find alternative 
+        Is there bread? 
+            If false > wait till brunch/or when hungry to have a meal
+            If true > is there butter, vegemite or jam? 
+                If false > wait till brunch/or when hungry to have a meal
+                If true > toast bread and spread with butter, vegemite or jam
+    If true > eat banana 
+Head to bathroom to brush teeth
+Am I going somewhere today? 
+    If false > do I need to study? 
+        If false > watch netflix 
+        If true > complete study tasks for the day then watch netflix
+    If true > do I have work? 
+        If false > dress in causal clothes
+        If true > dress in uniform 
+        Get in car
+Continue day as planned    

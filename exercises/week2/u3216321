@@ -1,0 +1,21 @@
+Algorithm for preparing for work.
+
+Check if my uniform has been washed.
+    If false -> begin having uniform cleaned and continue
+    If true -> continue
+Check if I have showered.
+    If false -> take a shower, then put on uniform
+    If true -> put on uniform
+Put on formal work shoes.
+Brush my teeth.
+Put phone, wallet and keys, into my pocket.
+Put (cleaned) apron into bag.
+Check that nametag is still in bag.
+    If false -> find the nametag and put it into bag
+    If true -> continue
+Take headphones and put them in bag too.
+Leave house to catch the bus.
+Check hunger prior to work.
+    If really hungry -> Buy food before entering work
+    If hungry -> Enter work, but look into making a staff order during shift
+    If not hungry -> Enter work

@@ -1,0 +1,45 @@
+Feeding Winston (the dog)
+
+Each morning:
+Open the bag of biscuits
+Measure 1 cup
+Is there enough?
+Is there another bag in the pantry?
+Do you need to buy more?
+Fetch bowl
+Clean bowl
+Empty 1 cup of biscuits into bowl
+Open fridge
+Retrieve can of meat
+Is it there?
+Are there more cans in the pantry?
+Do you need to buy more?
+Spoon one quarter of a can of meat into bowl
+Mix with biscuits
+Place on the floor for Winston
+
+Each evening:
+Open the bag of biscuits
+Measure 1 cup
+Is there enough?
+Is there another bag in the pantry?
+Do you need to buy more?
+Fetch bowl
+Clean bowl
+Empty 1 cup of biscuits into bowl
+Place on the floor for Winston
+Fetch water bowl
+Refresh water
+Place on the floor for Winston
+
+Checking the car's engine oil
+
+Is the engine cool?
+Open the bonnet
+Remove the dipstick
+Clean the dipstick
+Replace the dipstick
+Remove the dipstick
+Is the oil reading within the required parameters?
+If the level is too low, add oil, replace the dipstick and take measurement again
+If the level is within required parameters, replace the dipstick, secure the oil cap and close the bonnet

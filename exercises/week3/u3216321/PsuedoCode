@@ -1,0 +1,40 @@
+CREATE clean_uniform
+CREATE showered
+CREATE brushed_teeth
+CREATE KeyItems
+CREATE uniform
+
+DO
+    IF
+        clean_uniform="false" THEN
+            Wash uniform
+            SET clean_uniform="true"
+    IF
+        showered="false" THEN
+            Shower
+            SET showered="true"
+    IF
+        clean_uniform="true" THEN
+            Put on uniform, headphones, and put apron in bag
+            SET uniform="true"
+    IF
+        brushed_teeth="false" THEN
+            Brush teeth
+            SET brushed_teeth="true"
+    IF 
+        KeyItems="false"
+            Collect phone, wallet and KeyItems
+            SET KeyItems="true"
+    IF
+        uniform="false"
+            LOOP
+    ELSE
+        Put on work shoes
+        Leave house to catch the bus
+            IF "Hungry"
+                Consider making a staff lunch order
+                END
+            IF "Not Hungry"
+                END
+            IF "Very Hungry"
+                Buy food before entering work

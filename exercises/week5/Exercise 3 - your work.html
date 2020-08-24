@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+       
+        <script>
+
+            // Start putting in some code to match up with your algorithm
+
+            var message = "Hello World"; // this is also a comment but it is only for this line
+            window.alert(message); // this command will write the message into a popup in your browser
+
+            /* Please create comments for your algorithm from last weeks exercise
+            in a script so that it is ready to create the program */
+
+            // sample variable
+            var a_num = 1;
+            var a_string = "Hello"
+
+            // sample simple if statement
+            if (a_num == 1) windows.alert(a_string);
+
+            // sample if else statement
+            if (a_num != 1) {
+                windows.alert("this won't be run");
+            } else {
+                windows.alert(a_string);
+            }
+
+            // sample switch statement
+            switch(a_num) {
+                case 1:
+                    windows.alert("You getting sick of having to press ok?");
+                    break;
+                case 2:
+                    windows.alert("this won't run, but see what happens if you remove the break above...");
+                    break; // this break isn't really needed, but it is good practise to include it
+            }
+
+            // sample do statement
+            do {
+                windows.alert(a_string);
+                a_num--;
+            } while (a_num > 0);
+            
+            // sample while statement
+            while (a_num < 1) {
+                windows.alert("last one (remember the space)" + a_string);
+                a_num++;
+            }
+
+            // sample for statement
+            for (let b_num = 1; b_num < 3; b_num++) {
+                document.write("this is a way of writing directly onto the html page");
+            }
+
+
+        </script>
+
+    </body>
+</html>
