@@ -1,0 +1,15 @@
+<!DOCTYPE Text>
+Start
+DO
+CALL drawASelf_portrait Funtion
+END
+
+Funtion drawASelf_portrait
+Start
+CALL drawFace
+CALL drawHair
+CALL drawGlasses
+END
+
+Funtion drawFace
+Start
