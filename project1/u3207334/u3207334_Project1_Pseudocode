@@ -1,5 +1,5 @@
-set varable x= 250
-set varable y= 200
+set variable x= 250
+set variable y= 200
 
 START
 Do
@@ -11,14 +11,14 @@ End
 //A0
 Function CREATEcanvas
 START
-accept varables: width, height, colour
+accept variables: width, height, colour
 CALL CREATE text'CLICK'
 End
 
 //A0.1
 Function CREATE text'CLICK'
 START
-accept varables: colour, font, size, leftpos, toppos
+accept variables: colour, font, size, leftpos, toppos
 CALL text Function to create CLICK
 End
 
@@ -32,7 +32,7 @@ CALL drawFace
 CALL drawEyes
 CALL drawPupils
 CALL drawGlasses
-CALL drawEyebows
+CALL drawEyebrows
 CALL drawNose
 CALL drawHair2
 CALL drawMouth
@@ -42,7 +42,7 @@ End
 //A1.1
 Function drawHair1
 START
-accept varables: colour, mode, size, leftpos, toppos, width, height, corners
+accept variables: colour, mode, size, leftpos, toppos, width, height, corners
 CALL fill Function to set colour
 CALL rectmode Function to set mode
 CALL draw rect Function
@@ -51,7 +51,7 @@ End
 //A1.2
 Function drawClothes
 START
-accept varables: colour, leftpos, toppos, width, height, corners
+accept variables: colour, leftpos, toppos, width, height, corners
 CALL fill Function to set colour
 CALL draw rect Function
 End
@@ -59,7 +59,7 @@ End
 //A1.3
 Function drawNeck
 START
-accept varables: colour, leftpos, toppos, width, height, corners
+accept variables: colour, leftpos, toppos, width, height, corners
 CALL fill Function to set colour
 CALL draw rect Function
 End
@@ -67,7 +67,7 @@ End
 //A1.4
 Function drawFace
 START
-accept varables: colour, mode, leftpos, toppos, width, height, corners
+accept variables: colour, mode, leftpos, toppos, width, height, corners
 CALL fill Function to set colour
 CALL ellipse mode Function to set mode
 CALL draw ellipse Function
@@ -76,14 +76,14 @@ End
 //1.5
 Function drawEyes
 START
-accept varables: colour, mode, leftpos, toppos, width, height, corners
+accept variables: colour, mode, leftpos, toppos, width, height, corners
 CALL fill Function to set colour
 CALL ellipsemode Function to set mode
 CALL draw ellipse Function
 End
 
 START
-accept varables: colour, mode, leftpos, toppos, width, height, corners
+accept variables: colour, mode, leftpos, toppos, width, height, corners
 CALL fill Function to set colour
 CALL ellipse mode Function to set mode
 CALL draw ellipse Function
@@ -92,13 +92,13 @@ End
 //1.6
 Function drawPupils
 START
-accept varables: colour, leftpos, toppos, width, height, corners
+accept variables: colour, leftpos, toppos, width, height, corners
 CALL fill Function to set colour
 CALL draw ellipse Function
 End
 
 START
-accept varables: colour, leftpos, toppos, width, height, corners
+accept variables: colour, leftpos, toppos, width, height, corners
 CALL fill Function to set colour
 CALL draw ellipse Function
 End
@@ -106,57 +106,57 @@ End
 //1.7
 Function drawGlasses
 START
-accept varables: colour, leftpos, toppos, width, height, corners
+accept variables: colour, leftpos, toppos, width, height, corners
 CALL fill Function to set colour
 CALL draw rect Function
 End
 
 START
-accept varables: colour, leftpos, toppos, width, height, corners
+accept variables: colour, leftpos, toppos, width, height, corners
 CALL fill Function to set colour
 CALL draw rect Function
 End
 
 START
-accept varables: leftpos_x1, toppos_y1, leftpos_x2, toppos_y2
+accept variables: leftpos_x1, toppos_y1, leftpos_x2, toppos_y2
 CALL draw line Function
 End
 
 //A1.8
-Function drawEyebows
-//right Eyebows
+Function drawEyebrows
+//right Eyebrows
 START
-accept varables: colour, mode, leftpos, toppos, width, height, corners
+accept variables: colour, mode, leftpos, toppos, width, height, corners
 CALL fill Function to set colour
 CALL ellipse mode Function to set mode
 CALL draw ellipse Function
 End
 
-//left Eyebows
+//left Eyebrows
 //lower pos
 IF mouseIsPressed
 START
-accept ture varables: leftpos, toppos, width, height, corners
+accept true variables: leftpos, toppos, width, height, corners
 CALL draw ellipse Function
 
 //normal height
 Else
 START
-accept false varables: leftpos, toppos, width, height, corners
+accept false variables: leftpos, toppos, width, height, corners
 CALL draw ellipse Function
 End
 
 //A1.9 
 Function drawNose
 START
-accept varables: colour, leftpos_x1, toppos_y1, leftpos_x2, toppos_y2, leftpos_x3, toppos_y3
+accept variables: colour, leftpos_x1, toppos_y1, leftpos_x2, toppos_y2, leftpos_x3, toppos_y3
 CALL draw triangle Function
 End
 
 //A1.10
 Function drawHair2
 START
-accept varables: colour, mode, size, leftpos, toppos, width, height, corners
+accept variables: colour, mode, size, leftpos, toppos, width, height, corners
 CALL fill Function to set colour
 CALL rectmode Function to set mode
 CALL draw rect Function
@@ -165,20 +165,20 @@ End
 //A1.11
 Function drawMouth
 START
-accept varable: colour
+accept variable: colour
 CALL colour Function to fill shape
 
 //shock 
 IF mouseIsPressed
 START
-accept ture varables: leftpos, toppos, width, height
+accept true variables: leftpos, toppos, width, height
 CALL draw ellipse Function
 End
 
 //smile
 Else
 START
-accept false varables: leftpos, toppos, width, height, start, mode
+accept false variables: leftpos, toppos, width, height, start, mode
 CALL draw ellipse Function
 End
 
@@ -187,7 +187,7 @@ Function create'?'
 START
 
 IF mouseIsPressed
-accept ture varables: colour, leftpos, toppos, angle, axis, size
+accept true variables: colour, leftpos, toppos, angle, axis, size
 CALL textfill Function
 CALL text Function
 End
