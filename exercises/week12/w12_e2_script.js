@@ -28,10 +28,13 @@ async function main() {
         bookarr.push(book);
     }
 
+    //console.log(bookarr);
+
     // the for (variable of iterable) will loop through each item in an array
     for (x of bookarr) {
         document.write(x.cover());
-        document.write(x.getAuthor());
+        document.write(x.getAuthor()+"</br>");
+
     }
 }
 
