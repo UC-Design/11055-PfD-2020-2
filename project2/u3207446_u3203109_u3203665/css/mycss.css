@@ -19,7 +19,7 @@ table {
     background-color: #dddddd;
   }
 
-/*<span>Photo by <a href="https://unsplash.com/@syinq?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Susan Yin</a> on <a href="https://unsplash.com/s/photos/books?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span> */
+  
 .hero {
     background-image: url("../images/books.jpg");
     background-repeat: no-repeat;
